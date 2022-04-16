@@ -23,6 +23,7 @@ class WhatsAppBot():
         while espera:
             espera = self.Validar_QR()
             print(espera)
+            print("Esperando....")
             time.sleep(2)
             if espera == False:
                 print(espera)
