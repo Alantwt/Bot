@@ -17,7 +17,7 @@ class WhatsAppBot():
 
 
     def bot_init(self):
-        self.driver.get("https://web.whatsapp.com/")
+        self.driver.get("https://youtube.com/")
         time.sleep(5)
         espera = True
         while espera:
