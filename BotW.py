@@ -48,18 +48,6 @@ def chat():
     chatbox.send_keys("ahora soy el bot")
     chatbox.send_keys(keys.Keys.ENTER)
 
-# def readChat():
-#     chats = Bdriver.find_elements(By.XPATH,f'//*[@id="main"]/div[3]/div/div[2]/div[3]/div[{i}]')
-#     for chat in chats:
-#         print(f"qui {chat}")
-#     print("Lista")
-#     print(type(chats[0].text))
-#     chat = chats[0].text
-#     b = False
-#     while b==False:
-#         for i in range(len(chat)-1,0,-1):
-#             print(chat[i])
-#             if chat[i] == "\n":b==True
 
 def readChat():
     b=False
@@ -71,14 +59,3 @@ def readChat():
 OpenUrl()
 
 
-#//*[@id="main"]/div[3]/div/div[2]/div[3]
-#i0jNr selectable-text copyable-text
-#//*[@id="main"]/div[3]/div/div[2]/div[3]/div[29]/div/div[1]/div/div[1]/div/span[1]/span
-#//*[@id="main"]/div[3]/div/div[2]/div[3]/div[30]/div/div[1]/div/div[1]/div/span[1]/span
-#//*[@id="main"]/div[3]/div/div[2]/div[3]/div[21]/div/div[1]/div/div[1]/div/span[1]/span
-
-
-#//*[@id="main"]/div[3]/div/div[2]/div[3]/div[29]/div/div[1]/div/div[1]/div
-#//*[@id="main"]/div[3]/div/div[2]/div[3]/div[30]/div
-
-#//*[@id="main"]/div[3]/div/div[2]/div[3]/div[30]
